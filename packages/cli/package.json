@@ -1,0 +1,29 @@
+{
+  "name": "z-note",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@z-note/local-client":"^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@z-note/local-api": "^1.0.0",
+    "commander": "^9.4.0",
+    "esbuild": "0.8.26",
+    "typescript": "^4.8.3"
+  }
+}
