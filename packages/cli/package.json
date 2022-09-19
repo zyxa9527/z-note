@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@z-note/local-client":"^1.0.0"
+    "@z-note/local-client": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.7.18",

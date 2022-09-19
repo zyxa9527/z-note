@@ -1,7 +1,7 @@
 {
   "name": "@z-note/local-client",
-  "version": "0.1.0",
-  "publishConfig":{
+  "version": "1.0.0",
+  "publishConfig": {
     "access": "public"
   },
   "files": [
