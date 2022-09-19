@@ -36,3 +36,4 @@ npx z-note
 npx z-note serve
 ```
  
+![aaa](https://user-images.githubusercontent.com/60773919/190973049-27668fea-2284-4f1e-b668-1e578efd5162.png)
